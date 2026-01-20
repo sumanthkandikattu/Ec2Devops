@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Build the program') {
+        stage('Build the program in Java') {
             steps {
                 echo 'Build'
             }
 		}
-		stage('Test the program') {
+		stage('Test the program in Java') {
             steps {
                 echo 'Test'
             }
